@@ -1,0 +1,15 @@
+﻿<Window x:Class="HotelOrigin.CustomerListWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelOrigin"
+        mc:Ignorable="d"
+        Title="Hotel Origin" Height="350" Width="525">
+    <Grid Margin="0,28,0.4,-0.2">
+        <Button x:Name="customerButton" Content="Customer Management" Margin="10,-23,10,0" Height="99" VerticalAlignment="Top" Click="customerButton_Click"/>
+        <Button x:Name="roomButton" Content="Room Management" Margin="10,81,10,0" VerticalAlignment="Top" Height="99" Click="roomButton_Click"/>
+        <Button x:Name="reservationButton" Content="Reservation Management" Margin="10,185,10,0" Height="99" VerticalAlignment="Top" Click="reservationButton_Click"/>
+
+    </Grid>
+</Window>

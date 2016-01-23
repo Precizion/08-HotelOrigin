@@ -1,0 +1,9 @@
+C:\Dev\Origin\07-CaptainsLog\HotelOrigin\HotelOrigin.Core1\bin\Debug\HotelOrigin.Core1.dll
+C:\Dev\Origin\07-CaptainsLog\HotelOrigin\HotelOrigin.Core1\bin\Debug\HotelOrigin.Core1.pdb
+C:\Dev\Origin\07-CaptainsLog\HotelOrigin\HotelOrigin.Core1\obj\Debug\HotelOrigin.Core.csprojResolveAssemblyReference.cache
+C:\Dev\Origin\07-CaptainsLog\HotelOrigin\HotelOrigin.Core1\obj\Debug\HotelOrigin.Core1.dll
+C:\Dev\Origin\07-CaptainsLog\HotelOrigin\HotelOrigin.Core1\obj\Debug\HotelOrigin.Core1.pdb
+C:\Dev\Origin\07-CaptainsLog\HotelOrigin\HotelOrigin.Core1\bin\Debug\FirstFloor.ModernUI.dll
+C:\Dev\Origin\07-CaptainsLog\HotelOrigin\HotelOrigin.Core1\bin\Debug\Newtonsoft.Json.dll
+C:\Dev\Origin\07-CaptainsLog\HotelOrigin\HotelOrigin.Core1\bin\Debug\FirstFloor.ModernUI.xml
+C:\Dev\Origin\07-CaptainsLog\HotelOrigin\HotelOrigin.Core1\bin\Debug\Newtonsoft.Json.xml

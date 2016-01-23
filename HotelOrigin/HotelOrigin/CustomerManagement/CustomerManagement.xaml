@@ -1,0 +1,29 @@
+﻿<Window x:Class="HotelOrigin.CustomerManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelOrigin"
+        mc:Ignorable="d"
+        Title="Customer List" Height="300" Width="600">
+    <Grid>
+        <Button x:Name="customerAddButton" Content="Add Customer" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="280" Height="32" Click="customerAddButton_Click"/>
+        <Button x:Name="customerDeleteButton" Content="Delete Customer" Margin="304,10,9.6,0" VerticalAlignment="Top" Height="32" Width="280" Click="customerDeleteButton_Click"/>
+        
+        <DataGrid x:Name="dataGrid" Margin="10,47,9.6,10.4" SelectionChanged="dataGrid_SelectionChanged" AutoGenerateColumns="False" ItemsSource="{Binding}">
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Date" Binding="{Binding EntryDate}"/>
+                <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}" />
+                <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" />
+                <DataGridTextColumn Header="Telephone Number" Binding="{Binding TelephoneNumber}" />
+                <DataGridTextColumn Header="E-mail Address" Binding="{Binding Email}" />
+                <DataGridTextColumn Header="Notes" Binding="{Binding Notes}" />
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>
